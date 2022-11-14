@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<head>
+<title>CSS</title>
+<style>
+
+.t-left{
+    text-align:left;
+	}
+.t-right{
+    text-align:right;
+	}
+.t-center{
+    text-align:center;
+	}
+
+.t-justify{
+    text-align:justify;
+	}
+	
+	.A-div{
+	border:solid 6px green;
+	margin-bottom:10px;
+	}
+	
+	
+.a-right{
+	text-align-last:right;
+	}
+.a-center{
+    text-align-last:center;
+	}
+.a-justify{
+	text-align-last:justify;
+	}	
+.direct	{
+	direction:rtl;
+	unicode-bidi:bidi-override;
+	}
+	
+.baseline{
+    vertical-align:baseline;	
+	}
+.text-top{
+    vertical-align:text-top;
+	font-size:10px
+	}
+.text-bottom{
+    vertical-align:text-bottom;
+	font-size:10px
+	}
+.sub{
+    vertical-align:sub;
+	font-size:10px
+	}
+.super{
+    vertical-align:super;
+	font-size:10px
+	}
+	
+.line-through{
+    text-decoration:line-through;
+	}
+.underline{
+    text-decoration:underline;
+	}
+.overline{
+    text-decoration:overline;
+	}
+.underline overline{
+    text-decoration: underline overline;
+	}
+	
+	
+	
+.b-uppercase{
+    text-transform:uppercase;
+	}
+.b-lowercase{
+    text-transform:lowercase;
+	}
+.b-capitalize{
+    text-transform:capitalize;
+	}
+	
+.ab{
+    text-indent:20px;
+	}
+.cd{
+   letter-spacing:20px;
+	}
+.ef{
+    line-height:50px;
+	}
+.gh{
+    word-spacing:30px;
+	}
+.ij{
+    white-space:pre-wrap;
+	}
+
+	
+	
+	</style>
+</head>
+<body>
+<h1>CSS</h1>
+<div class="A-div">
+<h2>Text align</h2>
+<h3>Text align:left;</h3>
+<p class="t-left">“Lorem ipsum” dummy text is used by many web-developers to test how their HTML templates will look with real data. Often, developers use third-party services to generate “Lorem ipsum” text, but now you can do that right in your editor. Just expand lorem or lipsum abbreviations to get the following snippet:</p>
+<h3>Text align:right;</h3>
+<p class="t-right">“Lorem ipsum” dummy text is used by many web-developers to test how their HTML templates will look with real data. Often, developers use third-party services to generate “Lorem ipsum” text, but now you can do that right in your editor. Just expand lorem or lipsum abbreviations to get the following snippet:</p>
+<h3>Text align:center;</h3>
+<p class="t-center">“Lorem ipsum” dummy text is used by many web-developers to test how their HTML templates will look with real data. Often, developers use third-party services to generate “Lorem ipsum” text, but now you can do that right in your editor. Just expand lorem or lipsum abbreviations to get the following snippet:</p>
+<h3>Text align:justify;</h3>
+<p class="t-justify">“Lorem ipsum” dummy text is used by many web-developers to test how their HTML templates will look with real data. Often, developers use third-party services to generate “Lorem ipsum” text, but now you can do that right in your editor. Just expand lorem or lipsum abbreviations to get the following snippet:</p>
+</div>
+<div class="A-div">
+<h2>Text align lost</h2>
+<h3>Text align-last:right;</h3>
+<p class="a-right">“Lorem ipsum” dummy text is used by many web-developers to test how their HTML templates will look with real data. Often, developers use third-party services to generate “Lorem ipsum” text, but now you can do that right in your editor. Just expand lorem or lipsum abbreviations to get the following snippet:</p>
+<h3>Text align-last:center;</h3>
+<p class="a-center">“Lorem ipsum” dummy text is used by many web-developers to test how their HTML templates will look with real data. Often, developers use third-party services to generate “Lorem ipsum” text, but now you can do that right in your editor. Just expand lorem or lipsum abbreviations to get the following snippet:</p>
+<h3>Text align-last:justify;</h3>
+<p class="a-justify">“Lorem ipsum” dummy text is used by many web-developers to test how their HTML templates will look with real data. Often, developers use third-party services to generate “Lorem ipsum” text, but now you can do that right in your editor. Just expand lorem or lipsum abbreviations to get the following snippet:</p>
+</div>
+
+<p class="direct">once upon a time they lived ghost </p>
+
+<div class="A-div">
+<h2>vertical align</h2>
+<h3>vertical-align baseline:</h3>
+<p>Arju<span class="baseline">n</span></p>
+<h3>vertical-align text-top:</h3>
+<p>Arju<span class="text-top">n</span></p>
+<h3>vertical align text-bottom:</h3>
+<p>Arju<span class="text-bottom">n</span></p>
+<h3>vertical align sub:</h3>
+<p>Arju<span class="sub">n</span></p>
+<h3>vertical align super:</h3>
+<p>Arju<span class="super">n</span></p>
+</div>
+
+<div class="A-div">
+<h2>Text-decoration<h2>
+
+<h3>text-decoration:line-through;</h3>
+
+<p class="line-through">HTML templates will look with real data. Often, developers use third-party services to generate “Lorem ipsum” text, but now you can do that right in your editor.</p>
+<h3>text-decation:underline;</h3>
+<p class="underline">HTML templates will look with real data. Often, developers use third-party services to generate “Lorem ipsum” text, but now you can do that right in your editor.</p>
+<h3>text-decoration:overline;</h3>
+<p class="overline">HTML templates will look with real data. Often, developers use third-party services to generate “Lorem ipsum” text, but now you can do that right in your editor.</p>
+<h3>text-decoration:underline overline;</h3>
+<p class=" underline overline">HTML templates will look with real data. Often, developers use third-party services to generate “Lorem ipsum” text, but now you can do that right in your editor.</p>
+</div>
+<div class="A-div">
+<h2>Text transform</h2>
+
+<h3>text transform:uppercase;</h3>
+<p class="b-uppercase">“Lorem ipsum” dummy text is used by many web-developers to test how their HTML templates will look with real data. Often, developers use third-party services to generate “Lorem ipsum” text, but now you can do that right in your editor. Just expand lorem or lipsum abbreviations to get the following snippet:</p>
+<h3>Text transform:lowercase;</h3>
+<p class="b-lowercase">“Lorem ipsum” dummy text is used by many web-developers to test how their HTML templates will look with real data. Often, developers use third-party services to generate “Lorem ipsum” text, but now you can do that right in your editor. Just expand lorem or lipsum abbreviations to get the following snippet:</p>
+<h3>Text transform:capitalize;</h3>
+<p class="b-capitalize">“Lorem ipsum” dummy text is used by many web-developers to test how their HTML templates will look with real data. Often, developers use third-party services to generate “Lorem ipsum” text, but now you can do that right in your editor. Just expand lorem or lipsum abbreviations to get the following snippet:</p>
+</div>
+<div class="A-div">
+<h2>Text spacing</h2>
+<h3>text spacing:text-indent;</h3>
+<p class="ab">“Lorem ipsum” dummy text is used by many web-developers to test how their HTML templates will look with real data. Often, developers use third-party services to generate “Lorem ipsum” text, but now you can do that right in your editor. Just expand lorem or lipsum abbreviations to get the following snippet:</p>
+<h3>Text spacing:letter-spacing;</h3>
+<p class="cd">“Lorem ipsum” dummy text is used by many web-developers to test how their HTML templates will look with real data. Often, developers use third-party services to generate “Lorem ipsum” text, but now you can do that right in your editor. Just expand lorem or lipsum abbreviations to get the following snippet:</p>
+<h3>Text spacing:line-height;</h3>
+<p class="ef">“lorem ipsum” dummy text is used by many web-developers to test how their HTML templates will look with real data. Often, developers use third-party services to generate “Lorem ipsum” text, but now you can do that right in your editor. Just expand lorem or lipsum abbreviations to get the following snippet:</p>
+<h3>text spacing:word-spacing;</h3>
+<p class="gh">“Lorem ipsum” dummy text is used by many web-developers to test how their HTML templates will look with real data. Often, developers use third-party services to generate “Lorem ipsum” text, but now you can do that right in your editor. Just expand lorem or lipsum abbreviations to get the following snippet:</p>
+<h3>Text spacing:white-space;</h3>
+<p class="hi">“Lorem ipsum” dummy text is used by many web-developers to test how their HTML templates will look with real data. Often, developers use third-party services to generate “Lorem ipsum” text, but now you can do that right in your editor. Just expand lorem or lipsum abbreviations to get the following snippet:</p>
+</div>
+
+
+
+
+
+
+
+
+</body>
+</html>
